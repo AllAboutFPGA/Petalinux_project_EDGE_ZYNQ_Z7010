@@ -1,6 +1,6 @@
 /******************************************************************************
 *
-* Copyright (C) 2018 Xilinx, Inc.  All rights reserved.
+* Copyright (C) 2010-2020 <Xilinx Inc.>
 * 
 *  This program is free software; you can redistribute it and/or modify
 *  it under the terms of the GNU General Public License as published by
@@ -84,26 +84,26 @@ extern unsigned long  * ps7_peripherals_init_data;
 
 /* Freq of all peripherals */
 
-#define APU_FREQ  666666687
-#define DDR_FREQ  266666687
-#define DCI_FREQ  10158730
-#define QSPI_FREQ  200000000
+#define APU_FREQ  666665955
+#define DDR_FREQ  266666411
+#define DCI_FREQ  10158720
+#define QSPI_FREQ  199999786
 #define SMC_FREQ  10000000
-#define ENET0_FREQ  10000000
+#define ENET0_FREQ  124999870
 #define ENET1_FREQ  10000000
 #define USB0_FREQ  60000000
 #define USB1_FREQ  60000000
-#define SDIO_FREQ  100000000
-#define UART_FREQ  100000000
+#define SDIO_FREQ  49999947
+#define UART_FREQ  99999893
 #define SPI_FREQ  10000000
-#define I2C_FREQ  111111115
-#define WDT_FREQ  111111115
+#define I2C_FREQ  111111000
+#define WDT_FREQ  111111000
 #define TTC_FREQ  50000000
 #define CAN_FREQ  10000000
-#define PCAP_FREQ  200000000
+#define PCAP_FREQ  199999786
 #define TPIU_FREQ  200000000
-#define FPGA0_FREQ  100000000
-#define FPGA1_FREQ  142857132
+#define FPGA0_FREQ  99999893
+#define FPGA1_FREQ  10000000
 #define FPGA2_FREQ  10000000
 #define FPGA3_FREQ  10000000
 

@@ -1,4 +1,5 @@
-SRC_URI += "file://user_2020-11-28-12-58-00.cfg"
+FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
 
-FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
-
+SRC_URI:append = " file://bsp.cfg"
+KERNEL_FEATURES:append = " bsp.cfg"
+SRC_URI:append = " file://edge.cfg"

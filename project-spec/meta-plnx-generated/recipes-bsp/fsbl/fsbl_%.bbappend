@@ -1,3 +1,0 @@
-
-YAML_SERIAL_CONSOLE_STDOUT_forcevariable = "ps7_uart_0"
-YAML_SERIAL_CONSOLE_STDIN_forcevariable = "ps7_uart_0"

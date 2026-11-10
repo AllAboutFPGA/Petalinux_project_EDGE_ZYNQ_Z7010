@@ -1,0 +1,13 @@
+# /etc/network/interfaces -- EDGE ZYNQ
+auto lo
+iface lo inet loopback
+
+# Ethernet: an address from DHCP when the board is on a router ...
+auto eth0
+iface eth0 inet dhcp
+
+# ... and always 192.168.2.99, for a cable straight to a PC (set the PC to 192.168.2.1)
+auto eth0:1
+iface eth0:1 inet static
+	address 192.168.2.99
+	netmask 255.255.255.0
